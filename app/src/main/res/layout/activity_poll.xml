@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Poll">
+
+    //첫번째
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일일 자가진단"
+            android:textColor="#081587"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="145dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/graylien" />
+
+
+    //설문시작
+    //첫번째 질문
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="열(37.5도 이상)(Fever above 37.5 degees)"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnfever_ok"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/graylien2"
+            android:textColor="#8E8B8B"
+            android:text="Yes"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnfever_no"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textStyle="bold"
+            android:textColor="#8E8B8B"
+            android:background="@drawable/graylien2"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    //두번째 질문
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기침(Cough)"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btncough_ok"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/graylien2"
+            android:textColor="#8E8B8B"
+            android:text="Yes"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btncough_no"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textStyle="bold"
+            android:textColor="#8E8B8B"
+            android:background="@drawable/graylien2"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    //세번째 질문
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가래(Sputum)"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnsputum_ok"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/graylien2"
+            android:textColor="#8E8B8B"
+            android:text="Yes"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnsputum_no"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textStyle="bold"
+            android:textColor="#8E8B8B"
+            android:background="@drawable/graylien2"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    //네번째 질문
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오한 (Chills)"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnchills_ok"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/graylien2"
+            android:textColor="#8E8B8B"
+            android:text="Yes"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnchills_no"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textStyle="bold"
+            android:textColor="#8E8B8B"
+            android:background="@drawable/graylien2"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    //다섯번째 질문
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="목 쓰림/목 아픔 (Sore Thoat)"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnsore_ok"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/graylien2"
+            android:textColor="#8E8B8B"
+            android:text="Yes"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnsore_no"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textStyle="bold"
+            android:textColor="#8E8B8B"
+            android:background="@drawable/graylien2"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    //여섯번째 질문
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="호흡곤란(Dyspnea)"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btndyspnea_ok"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/graylien2"
+            android:textColor="#8E8B8B"
+            android:text="Yes"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btndyspnea_no"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textStyle="bold"
+            android:textColor="#8E8B8B"
+            android:background="@drawable/graylien2"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnpoll_result"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bluelien"
+        android:text="제출"
+        android:textColor="#081587"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

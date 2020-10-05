@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Result">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="진단 결과"
+            android:textColor="#081587"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="145dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/graylien" />
+
+    <com.dinuscxj.progressbar.CircleProgressBar
+        android:id="@+id/cpb_circlebar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:progress_text_size="50sp"
+        app:style="solid_line"
+        app:progress_stroke_width="20dp "
+        app:progress_stroke_cap="round"
+        app:progress_start_color="#FFBB00"
+        app:progress_end_color="#ABF200"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        />
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellowlien"
+        android:text="건강합니다. 코로나는 예방입니다. 조심하십시오."
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bluelien"
+        android:text="저장"
+        android:textColor="#081587"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
