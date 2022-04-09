@@ -4,13 +4,17 @@
 ### - 개발 언어: Kolin
 ### - 개발 프로그램: Android Studio
 
-
+### 1. 첫 시작 화면
 ![KakaoTalk_20220410_001645827](https://user-images.githubusercontent.com/48404941/162580388-37d24eb8-3321-4a03-99bf-0ac43ecb26c4.jpg)
 
+### 2. 로그인 화면
 ![KakaoTalk_20220410_001554271_02](https://user-images.githubusercontent.com/48404941/162580397-025ac89b-e366-49fc-817a-948340120986.jpg)
 
+### 3. 진단 체크 화면
 ![KakaoTalk_20220410_001645827_01](https://user-images.githubusercontent.com/48404941/162580406-d6bb47b6-5daa-43ff-adb4-ae8c7f7a9da5.jpg)
 
+### 4. 결과 화면
 ![KakaoTalk_20220410_001554271_01](https://user-images.githubusercontent.com/48404941/162580412-1ef4de82-6f3d-449d-8eb5-18dd45c93c96.jpg)
 
+### 5. 데이터 총 결과 
 ![KakaoTalk_20220410_001554271](https://user-images.githubusercontent.com/48404941/162580422-7eeb3dd4-b3e8-426c-a64d-fc82b6dbe2bf.jpg)
